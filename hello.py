@@ -4,7 +4,7 @@ import csv
 f = open('서울시 종로구 도로명 주소 정보.csv')
 
 data = csv.reader(f)
-a,e = input('구주소를 입력해주세요. ex) 서울특별시 종로구 후암동 143-8 :').split('-')
+a,e = input('구주소를 입력해주세요. ex) 서울특별시 종로구 신영동 214-61 :').split('-')
 a = str(a)
 e = str(e)
 a,b,c,d = a.split(' ')
